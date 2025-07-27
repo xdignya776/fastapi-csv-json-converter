@@ -5,6 +5,7 @@ This is a simple FastAPI app that reads data from a CSV file and converts it to 
 ## How to Run the App
 
 git clone https://github.com/xdignya776/fastapi-csv-json-converter.git
+
 cd fastapi-csv-json-converter
 
 ### Using Docker
