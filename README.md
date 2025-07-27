@@ -4,7 +4,7 @@ This is a simple FastAPI app that reads data from a CSV file and converts it to 
 
 ## How to Run the App
 
-git clone <your-repo-link>
+git clone https://github.com/xdignya776/fastapi-csv-json-converter.git
 cd fastapi-csv-json-converter
 
 ### Using Docker
@@ -17,7 +17,7 @@ cd fastapi-csv-json-converter
    ```sh
    docker run -p 8000:8000 fastapi-csv-json-converter
    ```
-3. Access the API at [http://localhost:8000/convert](http://localhost:8000/convert)
+3. Access the API at [http://localhost:8000/](http://localhost:8000/)
 
 ### Running Locally (without Docker)
 
@@ -29,4 +29,4 @@ cd fastapi-csv-json-converter
    ```sh
    uvicorn app.main:app --reload
    ```
-3. Access the API at [http://localhost:8000/convert](http://localhost:8000/convert)
+3. Access the API at [http://localhost:8000/](http://localhost:8000/)
